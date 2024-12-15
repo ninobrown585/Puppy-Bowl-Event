@@ -22,13 +22,13 @@ export default function App() {
     <Provider store={store}>
       <h1>Puppy Bowl</h1>
       <PuppyForm />
-      <main>
+      <main>    
         <PuppyList setSelectedPuppyId={setSelectedPuppyId} />
         <PuppyDetails
           selectedPuppyId={selectedPuppyId}
           setSelectedPuppyId={setSelectedPuppyId}
         />
-      </main>
+        </main> 
     </Provider>
   );
 }
